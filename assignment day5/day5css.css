@@ -1,0 +1,80 @@
+body{
+    background:radial-gradient(red,blue,yellow);
+}
+.heading{
+    background: -webkit-linear-gradient(pink,orange);
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    width: 70%;
+    font-weight: 100;
+    font-family: sans-serif;
+    height: 40px;
+}
+.search{
+    width: 70%;
+    height: 50px;
+    
+    margin-left: 15%;
+    font-size: 0px;
+  
+}
+
+.search_field{
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    font-family: segoe UI;
+    font-weight: 200;
+    text-indent: 30px;
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+.search_btn{
+    border: none;
+    height: 50px;
+    width: 10%;
+    background-color: white;
+}
+
+.search_icon{
+    width: 30px;
+    
+}
+.add{
+    width: 60%;
+    border: none;
+    background-color: white;
+}
+.card{
+    margin-left: 15%;
+    margin-right: 10%;
+    
+}
+.cards{
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background:none;
+    width: 15%;
+    height: 300px;
+}
+.img_shirt{
+    width: 100%;
+    border-radius: 20px;
+}
+.cards:hover{
+    width: 230px;
+    height: 20%;
+    overflow: visible; 
+    transition:2s;   
+
+}
+.heart{
+    background-color:none;
+    margin-left: 90%;
+    width: 20px;
+}
